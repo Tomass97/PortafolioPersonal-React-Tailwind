@@ -36,7 +36,7 @@ export const Portafolio = () => {
               <div className=" flex justify-center items-center w-full md:w-1/2 ">
                 <a href={proyecto.link} target="_blank">
                   <img
-                    className={`rounded-md w-full h-auto shadow-2xl ${proyecto.shadowColor} img-scale`}
+                    className={`rounded-md  w-full h-auto shadow-2xl ${proyecto.shadowColor} img-scale`}
                     src={proyecto.image}
                     alt={proyecto.title}
                   />
