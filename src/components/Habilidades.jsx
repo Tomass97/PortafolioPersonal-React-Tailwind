@@ -10,7 +10,7 @@ const Curriculum = () => {
     <div className='max-w-screen-2xl mx-auto flex justify-start items-center flex-col min-h-screen p-10 degradado rounded-xl'>
       <h1 className='flex justify-center items-center text-3xl md:text-6xl text-color-1 font-kanit mb-5 p-10'>Mis habilidades</h1>
 
-      <section className='grid grid-cols-1 sm:grid-cols-3 xl:grid-cols-4 justify-center items-center gap-20 mb-20'>
+      <section className='grid grid-cols-3 xl:grid-cols-4 justify-center items-center gap-20 mb-20'>
         {technologies.map((tech, index) => {
           const { ref, inView } = useInView({
             triggerOnce: true,
