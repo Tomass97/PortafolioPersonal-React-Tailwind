@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.degradado {
+  background: linear-gradient(-225deg, rgba(93, 159, 255, 0.9) 0%, rgba(184, 220, 255, 0.9) 48%, rgba(107, 187, 255, 0.9) 100%);
+}
+.degradado2 {
+  background: -webkit-linear-gradient(#5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.degradado-logo {
+  background: -webkit-linear-gradient(#1d77ff 0%, #0c84fc 48%, #134672 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+body {
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1; /* Asegúrate de que el video esté detrás de tu contenido */
+}
+
+.img-scale:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+header {
+  background: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+
+}
+
+footer {
+  background: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+
+}
